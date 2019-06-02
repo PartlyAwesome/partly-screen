@@ -1,0 +1,33 @@
+{
+  "name": "partly-screen",
+  "version": "0.0.0",
+  "description": "Front End PixiJS panel",
+  "homepage": "github.com/partlyawesome/partly-screen",
+  "author": {
+    "name": "Jack Sparham",
+    "email": "5777950+PartlyAwesome@users.noreply.github.com",
+    "url": "partlyaweso.me"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": true
+      }
+    ]
+  },
+  "private": true
+}
